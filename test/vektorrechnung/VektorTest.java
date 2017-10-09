@@ -69,8 +69,9 @@ public class VektorTest {
         double result = instance.skalar(that);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        
+        System.out.println("das ist ein Skalarprodukt zweier Vektoren");
     }
+    
 
     /**
      * Test of kreuz method, of class Vektor.
